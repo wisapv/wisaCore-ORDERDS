@@ -20,3 +20,14 @@ npx create-vite@latest wisa-core --template react
 cd wisa-core
 npm install
 npm install react-router-dom lucide-react
+
+git init
+git add .
+git commit -m "Initial commit"
+git remote add origin https://github.com/USERNAME/wisa-core.git
+git branch -M main
+git push -u origin main
+
+git add .
+git commit -m "moo2"
+git push
