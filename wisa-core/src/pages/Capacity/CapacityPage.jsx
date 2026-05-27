@@ -19,7 +19,7 @@ export default function CapacityPage() {
     formData.append('file', file);
     formData.append('targetMonth', targetMonth);
     try {
-      const response = await fetch('http://localhost:3000/api/cap/upload-nqc', {
+      const response = await fetch('http://localhost:3000/api/capacity/upload-nqc', {
         method: 'POST',
         body: formData,
       });
